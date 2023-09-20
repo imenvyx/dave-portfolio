@@ -62,29 +62,24 @@ export default function Example() {
   return (
     <header className="pt-5">
       <nav
-        className="mx-auto fixed  left-[40%] flex  items-center justify-center p-4 backdrop-blur-sm bg-white/30  rounded-[50px] gap-4   lg:px-8"
+        className="mx-auto fixed  left-[37.5%] flex  items-center justify-center p-4 backdrop-blur-sm bg-white/30  rounded-[50px] gap-4   lg:px-8"
         aria-label="Navbar Dave Portfolio"
       >
         <div className="flex ">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Dave Portfolio</span>
-            <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            />
           </a>
         </div>
 
         <Popover.Group className="flex lg:gap-x-12">
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Features
+            Trabajos
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Marketplace
+            Acerca de Mí
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Company
+            Contacto
           </a>
         </Popover.Group>
       </nav>

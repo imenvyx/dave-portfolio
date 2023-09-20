@@ -19,7 +19,7 @@ const icons = [
     height="3rem"
     width="3rem"
   />,
-  <Icon icon="logos:nextjs" color="#3ac9bf" height="3rem" width="3rem" />,
+  <Icon icon="devicon:nextjs" color="#3ac9bf" height="3rem" width="3rem" />,
   <Icon
     icon="logos:greensock-icon"
     color="#3ac9bf"
@@ -30,16 +30,16 @@ const icons = [
 
 const Skills = () => {
   return (
-    <div className="mb-8 flex gap-20">
+    <div className="my-20 flex gap-20">
       <div className="flex flex-col mx-auto">
         <div className="flex my-8">
-          <div className="text-4xl font-bold  mx-auto text-yellow-50">
-            Skills
+          <div className="text-4xl font-bold  mx-auto text-[#220B38]">
+            Habilidades
           </div>
         </div>
-        <div className="rounded-[64px] bg-white/30 backdrop-blur-lg backdrop-saturate-150  flex flex-wrap gap-5 p-8 justify-center mx-auto">
+        <div className="rounded-[64px] bg-white/30 backdrop-blur-lg backdrop-saturate-150  flex flex-wrap gap-10 p-3 px-20 justify-center mx-auto">
           {icons.map((i) => (
-            <div className="">{i}</div>
+            <div>{i}</div>
           ))}
         </div>
       </div>

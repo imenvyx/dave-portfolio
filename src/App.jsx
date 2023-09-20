@@ -9,22 +9,22 @@ import "@fontsource-variable/nunito";
 function App() {
   return (
     <div
-      className=" h-full bg-gradient-to-r from-[#6a11cb_0%] to-[#2575fc_100%]"
+      bg-gradient-to-t
+      from-purple-200
+      via-purple-400
+      to-purple-800
+      className=" h-full bg-gradient-to-t from-[#e0c3fc_0%] to-[#8ec5fc_100%]"
       /* style={{
-        backgroundImage: "linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%)",
-        background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+        background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+        background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
       }} */
     >
-      <div className="max-w-7xl mx-auto">
-        <Navbar />
-        <Hero />
-        <Works />
-        <AboutMe />
-        <Skills />
-        <Contact />
-      </div>
+      <Navbar />
+      <Hero />
+      <Works />
+      <AboutMe />
+      <Skills />
+      <Contact />
     </div>
   );
 }

@@ -9,8 +9,8 @@ const Contact = () => {
   return (
     <div className="flex flex-col items-center pb-8 mt-20">
       <div className="flex flex-col items-center mb-20 max-w-4xl mx-auto text-center">
-        <h2 className="text-7xl font-bold text-yellow-50"> Hablemos de tu proyecto.</h2>
-        <p className="text-lg text-yellow-50">
+        <h2 className="text-7xl font-bold text-[#220B38] mb-8"> Hablemos de tu proyecto.</h2>
+        <p className="text-lg text-[#4B5555]">
           Estoy emocionado por las oportunidades futuras y ansioso por
           contribuir a proyectos web innovadores. ¡Hablemos y descubramos cómo
           puedo ayudar a llevar tus ideas en línea a la vida!
