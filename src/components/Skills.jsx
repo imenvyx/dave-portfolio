@@ -37,9 +37,9 @@ const Skills = () => {
             Habilidades
           </div>
         </div>
-        <div className="rounded-[64px] bg-white/30 backdrop-blur-lg backdrop-saturate-150  flex flex-wrap gap-10 p-3 px-20 justify-center mx-auto">
-          {icons.map((i) => (
-            <div>{i}</div>
+        <div className="rounded-[64px] bg-[#2f2f2f]/40 backdrop-blur-lg backdrop-saturate-150 w-[90%] lg:w-[100%]  max-w-5xl   flex flex-wrap gap-5 ld:gap-10 py-8 px-10 lg:px-20 justify-center mx-auto">
+          {icons.map((i, index) => (
+            <div key={index}>{i}</div>
           ))}
         </div>
       </div>
