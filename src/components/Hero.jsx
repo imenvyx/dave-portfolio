@@ -7,13 +7,13 @@ const Hero = () => {
   return (
     <div className="h-auto  max-h-900px  mt-40 mb-40 flex flex-col items-center">
       <div className="flex flex-col items-center max-w-[70%] mx-auto">
-        <h1 className="font-bold text-7xl sm:text-9xl flex gap-3 text-[#220B38] mb-8 text-center">
+        <h1 className="font-bold text-7xl sm:text-9xl flex gap-3 text-[#2C1092] mb-8 text-center">
           Hola soy Dave.
         </h1>
-        <div className="text-3xl sm:text-7xl text-[#F06942]/80 mb-8 text-center">
+        <div className="text-3xl sm:text-6xl text-[#FF5533] mb-8 text-center">
           Un Desarrollador Frontend.
         </div>
-        <div className="rounded-[64px] bg-[#FFE29F]/80 backdrop-blur-lg backdrop-saturate-150  inline-flex gap-5 py-3 px-6 justify-center mx-auto">
+        {/*   <div className="rounded-[64px] border-2 border-[#FF5533]/50 bg-[#FFFDA3]/80 backdrop-blur-lg backdrop-saturate-150  inline-flex gap-5 py-3 px-6 justify-center mx-auto">
           <a
             href="https://github.com/imenvyx"
             target="_blank"
@@ -50,9 +50,14 @@ const Hero = () => {
               alt="email icon"
             />
           </a>
-        </div>
+        </div> */}
       </div>
-      <img src={Programer} alt="" className=" h-[500px] w-[500px]" />
+      <img
+        src={Programer}
+        alt=""
+        className=" h-[500px] w-[500px]"
+        style={{ filter: "drop-shadow(gray 0.5rem 0.5rem 10px)" }}
+      />
     </div>
   );
 };

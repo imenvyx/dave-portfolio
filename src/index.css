@@ -5,3 +5,27 @@
 html {
   scroll-behavior: smooth;
 }
+
+.levitate {
+  animation: levitate-move 6s linear infinite;
+}
+
+@keyframes levitate-move {
+  0% {
+    transform: translate(0px, -40px);
+  }
+  25% {
+    transform: translate(20px, -50px);
+
+    /* transform: translate3d(12px, 50%, 3em); */
+  }
+  50% {
+    transform: translate(0px, -46px);
+  }
+  75% {
+    transform: translate(-20px, -60px);
+  }
+  100% {
+    transform: translate(0px, -40px);
+  }
+}
