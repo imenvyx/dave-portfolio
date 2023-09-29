@@ -6,14 +6,8 @@ const Contact = () => {
     <div id="contact-me" className="flex  pb-8 mt-20 ">
       <div className="grid grid-cols-7 mb-20 w-[95%] mx-auto items-center  ">
         <div className="col-start-1 col-span-5  row-start-1 p-16">
-          <div
-            style={{
-              filter: "blur(20px)",
-              filter: "drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.10))",
-            }}
-            className="flex flex-col rounded-[64px] py-[4rem] px-[4rem]  bg-[#F9F871]/70 "
-          >
-            <div className="flex max-w-[600px] flex-col  ">
+          <div className="flex flex-col rounded-[64px] py-[4rem] px-[4rem]  bg-[#F9F871]/70  drop-shadow-xl">
+            <div className="flex max-w-[600px] flex-col z-20">
               <h2 className="text-8xl font-bold text-[#ff5533fb] mb-8 ">
                 {" "}
                 Hablemos de tu proyecto
