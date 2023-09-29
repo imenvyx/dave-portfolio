@@ -9,12 +9,12 @@ const Contact = () => {
           <div
             style={{
               filter: "blur(20px)",
-              filter: "drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.30))",
+              filter: "drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.10))",
             }}
-            className="flex flex-col rounded-[64px] py-[4rem] px-[4rem]  bg-[#D9D6Fe] "
+            className="flex flex-col rounded-[64px] py-[4rem] px-[4rem]  bg-[#F9F871]/70 "
           >
             <div className="flex max-w-[600px] flex-col  ">
-              <h2 className="text-8xl font-bold text-[#2C1092]  mb-8">
+              <h2 className="text-8xl font-bold text-[#ff5533fb] mb-8 ">
                 {" "}
                 Hablemos de tu proyecto
               </h2>
@@ -23,7 +23,7 @@ const Contact = () => {
                 contribuir a proyectos web innovadores. ¡Hablemos y descubramos
                 cómo puedo ayudar a llevar tus ideas a la vida!
               </p>
-              <h3 className="text-5xl font-bold text-[#FF5533]  mb-8">
+              <h3 className="text-5xl font-bold text-[#0C7AC8]  mb-8">
                 {" "}
                 Trabajemos juntos
               </h3>
@@ -35,7 +35,7 @@ const Contact = () => {
                 >
                   <Icon
                     icon="simple-icons:github"
-                    color="#220B38"
+                    color="#2F4858"
                     height="3.5rem"
                     width="3.5rem"
                   />
@@ -47,7 +47,7 @@ const Contact = () => {
                 >
                   <Icon
                     icon="bi:linkedin"
-                    color="#220B38"
+                    color="#2F4858"
                     height="3.5rem"
                     width="3.5rem"
                   />
@@ -55,7 +55,7 @@ const Contact = () => {
                 <a href="mailto:imdj9003@gmail.com">
                   <Icon
                     icon="mdi:email-outline"
-                    color="#220B38"
+                    color="#2F4858"
                     height="3.8rem"
                     width="3.8rem"
                   />

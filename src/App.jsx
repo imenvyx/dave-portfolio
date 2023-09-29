@@ -9,7 +9,7 @@ import "@fontsource-variable/nunito";
 function App() {
   return (
     <div
-      className=" h-full  "
+      className=" h-full "
       style={{
         /* background: "rgb(45,117,150)",
         background:

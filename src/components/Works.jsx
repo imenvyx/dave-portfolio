@@ -5,8 +5,8 @@ import projectsImg from "../assets/images/projects.png";
 const projects = [
   {
     title: "Descubre Trinidad",
-    color: "bg-[#ead926]/80",
-    hcolor: "hover:bg-[#ead926]",
+    color: "bg-[#F9F871]",
+    hcolor: "hover:bg-[#FFE171]",
     description:
       "Creación del portal web de la Ciudad de Trinidad, Cuba. Como parte de un conjunto de herramientas de city branding.",
     technologies: [
@@ -20,8 +20,8 @@ const projects = [
   },
   {
     title: " Xtarter App",
-    color: "bg-[#30C0D0]/80",
-    hcolor: "hover:bg-[#30C0ea]",
+    color: " bg-[#0C7AC8]",
+    hcolor: "hover:bg-[#0085BE]",
     description:
       "Creación de una innovadora plataforma de lanzamiento de proyectos que se financian mediante criptomonedas.",
     technologies: [
@@ -36,8 +36,8 @@ const projects = [
   },
   {
     title: "Xtarter Dashboard",
-    color: "bg-[#CF3648]/75",
-    hcolor: "hover:bg-[#CF3656]/90",
+    color: "bg-[#FF8BB0]",
+    hcolor: "hover:bg-[#FF757F]",
     description:
       "Administrar la información de los proyectos y proporcionar un conjunto de métricas relevantes relacionadas con los mismos.",
     technologies: [
@@ -77,19 +77,17 @@ const item = {
 const Works = () => {
   return (
     <div id="works" className="">
-      <div
-        style={{
-          filter: "blur(20px)",
-          filter: "drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.30))",
-        }}
-        className="flex flex-col rounded-[64px]  p-16 max-w-[95%] bg-[#3455DB]/20  mx-auto"
-      >
+      <div className=" relative flex flex-col rounded-[64px]  p-16 max-w-[95%] bg-[#2f2f2f]/10 backdrop-blur-lg  mx-auto shadow-lg">
         <div className="flex flex-col items-center">
           <div className="flex flex-col items-center mb-20 text-center">
-            <h2 className="text-9xl font-bold text-[#2C1092]">Mis trabajos</h2>
-            {/*  <p className="text-xl text-[#4B5555] mt-6 ">
-              Aquí hay algunos proyectos en los que he trabajado.
-            </p> */}
+            <h2
+              style={{
+                filter: "drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.30))",
+              }}
+              className="text-9xl font-bold text-[#ff5533fb] "
+            >
+              Trabajos
+            </h2>
           </div>
           <div className="absolute right-[150px] -top-20">
             <img
