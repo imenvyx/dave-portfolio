@@ -8,9 +8,9 @@ const AboutMe = () => {
       <div className="mt-20 lg:mt-40 max-w-[95%]  mx-auto ">
         <h2
           style={{
-            filter: "drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.30))",
+            filter: "drop-shadow(5px 3px 5px rgba(0, 0, 0, 0.30))",
           }}
-          className="text-9xl font-bold text-[#ff5533fb] text-center mb-16"
+          className="text-9xl font-bold text-[#F1652A] text-center mb-16"
         >
           ¿Quién es Dave?
         </h2>
@@ -24,7 +24,7 @@ const AboutMe = () => {
               </div>
             </div>
             <div className="col-span-6 ">
-              <div className="rounded-[64px] py-[4rem] px-[4rem] bg-[#00C9C3]/70 shadow-xl">
+              <div className="rounded-[64px] py-[4rem] px-[4rem] bg-[#00AAD7]/50 shadow-xl" >
                 <p className="text-xl  text-[#2f2f2f]">
                   David de Jesús Martínez Mayeta, un apasionado desarrollador
                   Frontend con 2 años de experiencia en el emocionante mundo del

@@ -6,9 +6,14 @@ const Contact = () => {
     <div id="contact-me" className="flex  pb-8 mt-20 ">
       <div className="grid grid-cols-7 mb-20 w-[95%] mx-auto items-center  ">
         <div className="col-start-1 col-span-5  row-start-1 p-16">
-          <div className="flex flex-col rounded-[64px] py-[4rem] px-[4rem]  bg-[#F9F871]/70  drop-shadow-xl">
-            <div className="flex max-w-[600px] flex-col z-20">
-              <h2 className="text-8xl font-bold text-[#ff5533fb] mb-8 ">
+          <div className="flex flex-col rounded-[64px] py-[4rem] px-[4rem]  bg-[#F9F871]/80  drop-shadow-xl">
+            <div className="flex max-w-[650px] flex-col z-20">
+              <h2
+                style={{
+                  filter: "drop-shadow(5px 3px 5px rgba(0, 0, 0, 0.30))",
+                }}
+                className="text-8xl font-bold text-[#F1652A] mb-8 "
+              >
                 {" "}
                 Hablemos de tu proyecto
               </h2>
@@ -17,7 +22,7 @@ const Contact = () => {
                 contribuir a proyectos web innovadores. ¡Hablemos y descubramos
                 cómo puedo ayudar a llevar tus ideas a la vida!
               </p>
-              <h3 className="text-5xl font-bold text-[#0C7AC8]  mb-8">
+              <h3 className="text-7xl font-bold text-[#0C7AC8]  mb-8">
                 {" "}
                 Trabajemos juntos
               </h3>
@@ -29,7 +34,7 @@ const Contact = () => {
                 >
                   <Icon
                     icon="simple-icons:github"
-                    color="#2F4858"
+                    color="#0C7AC8"
                     height="3.5rem"
                     width="3.5rem"
                   />
@@ -41,7 +46,7 @@ const Contact = () => {
                 >
                   <Icon
                     icon="bi:linkedin"
-                    color="#2F4858"
+                    color="#0C7AC8"
                     height="3.5rem"
                     width="3.5rem"
                   />
@@ -49,7 +54,7 @@ const Contact = () => {
                 <a href="mailto:imdj9003@gmail.com">
                   <Icon
                     icon="mdi:email-outline"
-                    color="#2F4858"
+                    color="#0C7AC8"
                     height="3.8rem"
                     width="3.8rem"
                   />
@@ -63,7 +68,7 @@ const Contact = () => {
             src={laptop}
             alt=""
             className="levitate h-full w-full"
-            style={{ filter: "drop-shadow(gray 0.5rem 0.5rem 10px)" }}
+            style={{ filter: "drop-shadow(gray 1rem 5rem 30px)" }}
           />
         </div>
       </div>

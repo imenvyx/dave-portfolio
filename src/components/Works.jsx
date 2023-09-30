@@ -76,15 +76,15 @@ const item = {
 };
 const Works = () => {
   return (
-    <div id="works" className="">
-      <div className=" relative flex flex-col rounded-[64px]  p-16 max-w-[95%] bg-[#2f2f2f]/10 backdrop-blur-lg  mx-auto shadow-lg">
+    <div id="works" className="mt-12">
+      <div className=" relative flex flex-col rounded-[64px]  p-16 max-w-[95%] bg-[#EDE9D0]/40 backdrop-blur-lg  mx-auto shadow-lg">
         <div className="flex flex-col items-center">
           <div className="flex flex-col items-center mb-20 text-center">
             <h2
               style={{
-                filter: "drop-shadow(0px 20px 10px rgba(0, 0, 0, 0.30))",
+                filter: "drop-shadow(5px 3px 5px rgba(0, 0, 0, 0.30))",
               }}
-              className="text-9xl font-bold text-[#ff5533fb] "
+              className="text-9xl font-bold text-[#F1652A] "
             >
               Trabajos
             </h2>
